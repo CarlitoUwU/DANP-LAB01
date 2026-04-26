@@ -1,3 +1,22 @@
+# Android
+*.class
+*.log
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configs
+local.properties
+*.properties
+
+# IDE - Android Studio / IntelliJ
+.idea/
 *.iml
 .gradle
 /local.properties
@@ -7,9 +26,20 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# OS
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+Thumbs.db
